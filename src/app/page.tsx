@@ -11,6 +11,7 @@ import { Canvas } from "fabric";
 export default function Home() {
   const fabricCanvasRef = useRef<Canvas | null>(null) as React.MutableRefObject<Canvas | null>;
 
+
   // State برای اندازه بورد
   const [boardWidth, setBoardWidth] = useState(800);
   const [boardHeight, setBoardHeight] = useState(600);
