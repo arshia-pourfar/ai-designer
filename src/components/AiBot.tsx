@@ -13,7 +13,7 @@ const AiBot: React.FC<AiBotProps> = ({ fabricCanvasRef }) => {
 
     const handleGenerate = async (prompt: string) => {
         try {
-            const response = await fetch('https://ai-designer-y9d9.onrender.com/generate', {
+            const response = await fetch('https://ai-designer-jf4t.onrender.com/generate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ prompt }),
